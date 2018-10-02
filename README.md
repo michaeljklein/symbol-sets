@@ -3,6 +3,7 @@
 `symbol-sets` provides type-level sets of `Symbols` using
 [`GHC.TypeLits`](http://hackage.haskell.org/package/base-4.11.1.0/docs/GHC-TypeLits.html#Symbol):
 
+
 ## Type safety
 
 `Set` is a type-level set that is correct by construction:
@@ -17,6 +18,7 @@ Set ["x","y","z"]
     • In the expression: set :: Set '["x", "z", "y"]
       In an equation for ‘it’: it = set :: Set '["x", "z", "y"]
 ```
+
 
 ## Set operations
 
@@ -34,3 +36,9 @@ Currently supported instances include:
 - `Show`
 - `Read`
 - `IsList`
+
+
+## Docs
+
+Haddock generated documentation may be found [here](https://michaeljklein.github.io/symbol-sets/doc/html/symbol-sets/index.html)
+
